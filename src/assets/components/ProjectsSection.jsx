@@ -8,7 +8,7 @@ const projects = [
       "A web application for tracking and monitoring motor vehicle testing at BPLJSKB",
     image: "/projects/tracking.png",
     tags: ["PHP", "Codeigniter", "Tailwind CSS", "Alpine.JS", "Node.js"],
-    demoUrl: "#",
+    demoUrl: "https://tracking.rezaadityapratama.com/",
     githubUrl: "#",
   },
   {
