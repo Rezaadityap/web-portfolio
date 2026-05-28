@@ -4,7 +4,8 @@ export const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20 md:pt-0">
+      className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20 md:pt-0"
+    >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl w-full items-center z-10">
         <div className="flex flex-col gap-5">
           <p className="text-sm font-medium text-muted-foreground uppercase tracking-widest opacity-0 animate-fade-in text-start">
@@ -43,7 +44,7 @@ export const HeroSection = () => {
 
         <div className="flex md:justify-end justify-center md:items-end items-center opacity-0 animate-fade-in-delay-2 md:text-end text-center">
           <img
-            src="/rezaa.png"
+            src="./rezaa.png"
             alt="Reza Aditya Pratama"
             className="w-64 md:w-84 aspect-[3/4] object-cover object-top rounded-2xl"
           />
