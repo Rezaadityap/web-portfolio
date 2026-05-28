@@ -12,14 +12,15 @@ export function Toaster() {
             key={toast.id}
             className={cn(
               "bg-background border border-border rounded-md p-4 shadow-md max-w-sm w-full animate-in fade-in zoom-in",
-              "transition-all duration-300"
-            )}>
+              "transition-all duration-300",
+            )}
+          >
             <div className="font-semibold mb-1">{toast.title}</div>
             <div className="text-sm text-muted-foreground">
               {toast.description}
             </div>
           </div>
-        ) : null
+        ) : null,
       )}
     </div>
   );

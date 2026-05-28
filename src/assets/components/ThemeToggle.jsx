@@ -32,9 +32,10 @@ export const ThemeToggle = () => {
     <button
       onClick={toggleTheme}
       className={cn(
-        "p-2 rounded-full transition-colors duration-300",
-        "focus:outline-none"
-      )}>
+        "p-2 rounded-full transition-colors duration-300 cursor-pointer",
+        "focus:outline-none",
+      )}
+    >
       {isDarkMode ? (
         <Sun className="h-6 w-6 text-yellow-300" />
       ) : (

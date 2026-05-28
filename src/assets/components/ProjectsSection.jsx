@@ -6,23 +6,13 @@ const projects = [
     title: "Web Applicaton Tracking & Monitoring",
     description:
       "A web application for tracking and monitoring motor vehicle testing at BPLJSKB",
-    image: "/projects/tracking.png",
+    image: "/projects/simas.png",
     tags: ["PHP", "Codeigniter", "Tailwind CSS", "Alpine.JS", "Node.js"],
     demoUrl: "https://tracking.rezaadityapratama.com/",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Saas Landing Page for Caffio",
-    description:
-      "SaaS landing page for Caffio, a digital solution for coffee shop management and promotion.",
-    image: "/projects/caffio.png",
-    tags: ["HTML", "CSS", "Javascript", "Tailwind CSS", "React.js", "Node.js"],
-    demoUrl: "https://rezaadityap.github.io/caffio/",
-    githubUrl: "https://github.com/Rezaadityap/caffio",
-  },
-  {
-    id: 3,
     title: "KKN – QR Ordering System for Coffee Shop",
     description:
       "KKN is a complete QR-based ordering system for coffee shops with user login and seamless payment via Midtrans.",
@@ -30,6 +20,16 @@ const projects = [
     tags: ["PHP", "Codeigniter", "Bootstrap", "Tailwind CSS", "Midtrans"],
     demoUrl: "https://kkn.rezaadityapratama.com/list_menu?meja=1",
     githubUrl: "#",
+  },
+  {
+    id: 3,
+    title: "Saas Landing Page for Caffio",
+    description:
+      "SaaS landing page for Caffio, a digital solution for coffee shop management and promotion.",
+    image: "/projects/caffio.png",
+    tags: ["HTML", "CSS", "Javascript", "Tailwind CSS", "React.js", "Node.js"],
+    demoUrl: "https://rezaadityap.github.io/caffio/",
+    githubUrl: "https://github.com/Rezaadityap/caffio",
   },
   {
     id: 4,
@@ -81,7 +81,8 @@ export const ProjectsSection = () => {
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+            >
               <div className="h-48 overflow-hidden">
                 <img
                   src={project.image}
@@ -108,13 +109,15 @@ export const ProjectsSection = () => {
                     <a
                       href={project.demoUrl}
                       target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    >
                       <ExternalLink size={20} />
                     </a>
                     <a
                       href={project.githubUrl}
                       target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                    >
                       <Github size={20} />
                     </a>
                   </div>
@@ -128,7 +131,8 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/Rezaadityap/">
+            href="https://github.com/Rezaadityap/"
+          >
             Check My Github <ArrowRight size={16} />
           </a>
         </div>

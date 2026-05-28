@@ -12,7 +12,7 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Web Developer & Support Technician
+              Web Developer & IT Support
             </h3>
 
             <p className="text-muted-foreground">
@@ -36,7 +36,8 @@ export const AboutSection = () => {
               <a
                 href="/Reza Aditya Pratama-CV.pdf"
                 target="_blank"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
                 Download CV
               </a>
             </div>
@@ -60,13 +61,12 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Wrench className="h-6 w-6 text-primary" />
+                  <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Support Technician</h4>
+                  <h4 className="font-semibold text-lg">IT Support</h4>
                   <p className="text-muted-foreground">
-                    Providing technical support and ensuring system
-                    functionality and reliability.
+                    Troubleshooting issues and maintaining system performance.
                   </p>
                 </div>
               </div>
@@ -74,13 +74,13 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
+                  <Wrench className="h-6 w-6 text-primary" />
                 </div>
-
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">IT Support</h4>
+                  <h4 className="font-semibold text-lg">Support Technician</h4>
                   <p className="text-muted-foreground">
-                    Troubleshooting issues and maintaining system performance.
+                    Providing technical support and ensuring system
+                    functionality and reliability.
                   </p>
                 </div>
               </div>
