@@ -6,7 +6,7 @@ const projects = [
     title: "Web Applicaton Tracking & Monitoring",
     description:
       "A web application for tracking and monitoring motor vehicle testing at BPLJSKB",
-    image: "/projects/simas.png",
+    image: "./projects/simas.png",
     tags: ["PHP", "Codeigniter", "Tailwind CSS", "Alpine.JS", "Node.js"],
     demoUrl: "https://tracking.rezaadityapratama.com/",
     githubUrl: "#",
@@ -16,7 +16,7 @@ const projects = [
     title: "KKN – QR Ordering System for Coffee Shop",
     description:
       "KKN is a complete QR-based ordering system for coffee shops with user login and seamless payment via Midtrans.",
-    image: "/projects/kkn.png",
+    image: "./projects/kkn.png",
     tags: ["PHP", "Codeigniter", "Bootstrap", "Tailwind CSS", "Midtrans"],
     demoUrl: "https://kkn.rezaadityapratama.com/list_menu?meja=1",
     githubUrl: "#",
@@ -26,7 +26,7 @@ const projects = [
     title: "Saas Landing Page for Caffio",
     description:
       "SaaS landing page for Caffio, a digital solution for coffee shop management and promotion.",
-    image: "/projects/caffio.png",
+    image: "./projects/caffio.png",
     tags: ["HTML", "CSS", "Javascript", "Tailwind CSS", "React.js", "Node.js"],
     demoUrl: "https://rezaadityap.github.io/caffio/",
     githubUrl: "https://github.com/Rezaadityap/caffio",
@@ -36,7 +36,7 @@ const projects = [
     title: "Informatics Engineering – STTI Sony Sugema",
     description:
       "Web system for Informatics Engineering at STTI Sony Sugema with a dynamic landing page and admin panel to manage content and student data.",
-    image: "/projects/informatika.png",
+    image: "./projects/informatika.png",
     tags: ["PHP", "Codeigniter", "Tailwind CSS", "Alpine.js", "Node.js"],
     demoUrl: "#",
     githubUrl: "#",
@@ -46,7 +46,7 @@ const projects = [
     title: "IPPTORY - Inventory Management System",
     description:
       "a web-based inventory management system designed to help companies manage stock, monitor inventory, and optimize procurement processes.",
-    image: "/projects/ipptory.png",
+    image: "./projects/ipptory.png",
     tags: ["PHP", "Codeigniter", "Bootstrap", "PHP Excel", "Mpdf"],
     demoUrl: "https://ipptory.rezaadityapratama.com/",
     githubUrl: "https://github.com/Rezaadityap/inventory",
@@ -56,7 +56,7 @@ const projects = [
     title: "Rare Store - UMKM Landing Page",
     description:
       "Landing page for local UMKM showcasing curated, handcrafted, and limited-edition products with a focus on creativity and uniqueness.",
-    image: "/projects/rare-store.png",
+    image: "./projects/rare-store.png",
     tags: ["HTML", "CSS", "Javascript", "AOS Animation"],
     demoUrl: "https://rare-store.rezaadityapratama.com/",
     githubUrl: "https://github.com/Rezaadityap/inventory",
